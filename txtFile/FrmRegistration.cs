@@ -47,5 +47,11 @@ namespace txtFile
             MessageBox.Show("Saved!");
            
         }
+
+        private void recbtn_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord frmrec = new FrmStudentRecord();
+            frmrec.ShowDialog();
+        }
     }
 }
